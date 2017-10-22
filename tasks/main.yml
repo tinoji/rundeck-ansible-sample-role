@@ -1,4 +1,4 @@
-name: yum install test
+- name: yum install test
   yum:
     name: gcc
     state: installed
