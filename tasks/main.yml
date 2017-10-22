@@ -1,0 +1,6 @@
+me: yum install test
+  yum:
+    name: gcc
+    state: installed
+    update_cache: yes
+  become: yes
